@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Резюме — Андрій Мозоль</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="header">
+  <h1>АНДРІЙ МОЗОЛЬ</h1>
+  <h2>СПЕЦІАЛІСТ З КІБЕРБЕЗПЕКИ</h2>
+</header>
+
+<main>
+  <div class="sidebar">
+    <section>
+      <img src="foto.jpg" alt="Фото кандидата">
+    </section>
+
+    <section>
+      <h2>ПРОФІЛЬ</h2>
+      <p>Enthusiastic Cybersecurity Specialist with a strong focus on cryptography, secure communications, and data protection.</p>
+    </section>
+
+    <section>
+      <h2>КОНТАКТНА ІНФОРМАЦІЯ</h2>
+      <p>Телефон: +380-XX-XXX-XXXX</p>
+      <p>Веб-сайт: <a href="#">Введіть веб-сайт тут</a></p>
+      <p>Email: andriy@example.com</p>
+    </section>
+
+    <section>
+      <h2>ХОБІ</h2>
+      <ul>
+        <li>Криптографія</li>
+        <li>Інформаційна безпека</li>
+        <li>Мережевий аналіз</li>
+      </ul>
+    </section>
+  </div>
+
+  <div class="content">
+    <section>
+      <h2>ОСВІТА</h2>
+      <p><strong>Львівська Політехніка</strong></p>
+      <p>Бакалавр з кібербезпеки (Очікується 2026)</p>
+    </section>
+
+    <section>
+      <h2>ДОСВІД РОБОТИ</h2>
+      <h3>CyberSafe Labs — Стажер з кібербезпеки</h3>
+      <p>Січень 2023 — Грудень 2023 (дистанційно)</p>
+      <ul>
+        <li>Аналізував протоколи безпечного обміну повідомленнями.</li>
+        <li>Проводив аудит ключів та криптографічних систем.</li>
+        <li>Документував ризики та стратегії захисту.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>НАВИЧКИ</h2>
+      <ul>
+        <li>Python, Bash, C/C++</li>
+        <li>OpenSSL, GPG, Wireshark, Kali Linux</li>
+        <li>Безпечні протоколи (TLS, SSH, IPsec)</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>МОВИ</h2>
+      <ul>
+        <li>Українська — рідна</li>
+        <li>Англійська — середній рівень (B1–B2)</li>
+      </ul>
+    </section>
+    
+    <section>
+      <h2>КОМЕНТАРІ РОБОТОДАВЦІВ</h2>
+      <div id="comments">Завантаження коментарів...</div>
+    </section>
+    
+    <section>
+     <footer id="footerInfo">
+     Завантаження інформації...
+     </footer>
+    </section>
+    
+       <div class="modal" id="feedback-modal">
+      <div class="modal-content">
+        <h2>Зворотній зв'язок</h2>
+        <form action="https://formspree.io/f/mvgakbly" method="POST">
+          <label>Ім’я:
+            <input type="text" name="name" required />
+          </label>
+          <label>Email:
+            <input type="email" name="email" required />
+          </label>
+          <label>Телефон:
+            <input type="tel" name="phone" required />
+          </label>
+          <label>Повідомлення:
+            <textarea name="message" required></textarea>
+          </label>
+          <button type="submit">Відправити</button>
+        </form>
+      </div>
+     </div> 
+    <button class="theme-toggle">Перемкнути тему</button>
+  </div>
+</main>
+
+  <script src="script.js"></script>
+</body>
+</html>
