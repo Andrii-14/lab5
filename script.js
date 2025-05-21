@@ -42,6 +42,10 @@ const comments = document.getElementById("comments");
   setTimeout(() => {
         document.getElementById("feedback-modal").style.display = "flex";
       }, 60000);
+// Обробник кнопки закриття модального вікна
+document.getElementById("close-modal").addEventListener("click", () => {
+  document.getElementById("feedback-modal").style.display = "none";
+});
 
 // 5. Перемикання теми
       const toggleBtn = document.querySelector(".theme-toggle");
